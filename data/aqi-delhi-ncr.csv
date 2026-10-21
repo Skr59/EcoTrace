@@ -1,0 +1,35 @@
+Location Name,Latitude,Longitude,AQI at 02:30,AQI at 17:59,Net AQI Difference,Region,State,AQI Category 02:30,AQI Category 17:59,Dominant Pollutant 02:30,Dominant Pollutant 17:59,PM2.5 at 02:30,PM2.5 at 17:59,PM10 at 02:30,PM10 at 17:59,NO2 at 17:59,SO2 at 17:59,O3 at 17:59,CO at 17:59,30-Day Baseline 02:30,30-Day Baseline 17:59,Baseline Deviation 17:59,Variance %,Variance Band,Variance Index,Daily Mean PM10,Emission Baseline (kg/day),Avoidable PM2.5 (kg/day),Reduction Potential %,tCO2e/yr Potential,Credit Value (INR/yr)
+Greater Noida,28.4744,77.504,191,200,9,UP NCR,Uttar Pradesh,Unhealthy,Unhealthy,CO,CO,149.3,83.5,244.7,164.6,52.1,28.9,115.5,1404.9,162.4,172.5,27.5,4.7,Moderate,58,245.3,1839.8,493.5,10,48.63,87534
+Airport (IGI),28.5627,77.1187,193,199,6,South West Delhi,Delhi,Unhealthy,Unhealthy,CO,CO,153.7,100.6,292.5,228.5,77,34.3,88.5,1233,214.5,225.5,-26.5,3.1,Moderate,46,281.6,2111.9,398.3,10,39.25,70650
+Dwarka (Sector 8),28.5921,77.046,193,199,6,South West Delhi,Delhi,Unhealthy,Unhealthy,CO,CO,153.7,100.6,292.5,228.5,77,34.3,88.5,871.9,214.5,225.5,-26.5,3.1,Moderate,46,281.6,2111.9,398.3,10,39.25,70650
+R K Puram,28.5645,77.1855,193,199,6,South Delhi,Delhi,Unhealthy,Unhealthy,CO,CO,153.7,100.6,292.5,228.5,77,34.3,88.5,1642.7,214.5,225.5,-26.5,3.1,Moderate,46,281.6,2111.9,398.3,10,39.25,70650
+Sirifort,28.548,77.2157,193,199,6,South Delhi,Delhi,Unhealthy,Unhealthy,CO,CO,153.7,100.6,292.5,228.5,77,34.3,88.5,1322.9,214.5,225.5,-26.5,3.1,Moderate,46,281.6,2111.9,398.3,10,39.25,70650
+Okhla Phase-2,28.53,77.27,193,199,6,South East Delhi,Delhi,Unhealthy,Unhealthy,CO,CO,153.7,100.6,292.5,228.5,77,34.3,88.5,1995.6,214.5,225.5,-26.5,3.1,Moderate,46,281.6,2111.9,398.3,10,39.25,70650
+Gurugram,28.4595,77.0266,193,199,6,Haryana NCR,Haryana,Unhealthy,Unhealthy,CO,CO,153.7,100.6,292.5,228.5,77,34.3,88.5,1039.4,214.5,225.5,-26.5,3.1,Moderate,46,281.6,2111.9,398.3,10,39.25,70650
+Faridabad,28.4089,77.3178,193,199,6,Haryana NCR,Haryana,Unhealthy,Unhealthy,CO,CO,153.7,100.6,292.5,228.5,77,34.3,88.5,1598.3,214.5,225.5,-26.5,3.1,Moderate,46,281.6,2111.9,398.3,10,39.25,70650
+Noida,28.5355,77.391,193,199,6,UP NCR,Uttar Pradesh,Unhealthy,Unhealthy,CO,CO,153.7,100.6,292.5,228.5,77,34.3,88.5,1840.3,214.5,225.5,-26.5,3.1,Moderate,46,281.6,2111.9,398.3,10,39.25,70650
+Bulandshahr,28.4069,77.8498,191,195,4,UP NCR,Uttar Pradesh,Unhealthy,Unhealthy,CO,CO,161.6,75.3,186.1,105.7,32,20.2,119.5,828.7,145,152.4,42.6,2.1,Low,59,184.1,1380.4,647.3,4,25.52,45936
+Ghaziabad,28.6692,77.4538,183,187,4,UP NCR,Uttar Pradesh,Unhealthy,Unhealthy,CO,CO,136.9,73.6,325.5,129.1,32.8,22.7,112.4,671.3,145.3,153.5,33.5,2.2,Low,51,224.6,1684.7,474.7,4,18.71,33678
+Hapur,28.7306,77.7759,183,187,4,UP NCR,Uttar Pradesh,Unhealthy,Unhealthy,CO,CO,136.9,73.6,325.5,129.1,32.8,22.7,112.4,700.2,145.3,153.5,33.5,2.2,Low,51,224.6,1684.7,474.7,4,18.71,33678
+Meerut,28.9845,77.7064,183,187,4,UP NCR,Uttar Pradesh,Unhealthy,Unhealthy,CO,CO,136.9,73.6,325.5,129.1,32.8,22.7,112.4,685.2,145.3,153.5,33.5,2.2,Low,51,224.6,1684.7,474.7,4,18.71,33678
+Alwar,27.5665,76.625,157,161,4,Rajasthan NCR,Rajasthan,Unhealthy,Unhealthy,CO,CO,98.6,44.7,172.6,97.5,28.6,7,81.3,402.6,113.7,123.9,37.1,2.5,Low,58,141.8,1063.6,404.3,4,15.94,28692
+Najafgarh,28.5708,76.9339,174,178,4,South West Delhi,Delhi,Unhealthy,Unhealthy,CO,CO,126.2,79.5,302.7,234.5,34,11.8,100.3,663.9,181.2,189,-11,2.3,Low,25,255.6,1916.7,350.3,4,13.81,24858
+Bahadurgarh,28.393,76.937,174,178,4,Haryana NCR,Haryana,Unhealthy,Unhealthy,CO,CO,126.2,79.5,302.7,234.5,34,11.8,100.3,703.9,181.2,189,-11,2.3,Low,25,255.6,1916.7,350.3,4,13.81,24858
+Dharuhera,28.236,76.645,174,178,4,Haryana NCR,Haryana,Unhealthy,Unhealthy,CO,CO,126.2,79.5,302.7,234.5,34,11.8,100.3,595.7,181.2,189,-11,2.3,Low,25,255.6,1916.7,350.3,4,13.81,24858
+Manesar,28.35,76.94,174,178,4,Haryana NCR,Haryana,Unhealthy,Unhealthy,CO,CO,126.2,79.5,302.7,234.5,34,11.8,100.3,703.9,181.2,189,-11,2.3,Low,25,255.6,1916.7,350.3,4,13.81,24858
+Sohna,28.24,76.85,174,178,4,Haryana NCR,Haryana,Unhealthy,Unhealthy,CO,CO,126.2,79.5,302.7,234.5,34,11.8,100.3,574.8,181.2,189,-11,2.3,Low,25,255.6,1916.7,350.3,4,13.81,24858
+Mundka,28.6826,77.0327,183,185,2,West Delhi,Delhi,Unhealthy,Unhealthy,CO,CO,126.2,92.8,356.3,224.7,59.2,27.8,88.4,785.2,156.9,168.6,16.4,1.1,Low,33,249.5,1871,250.5,4,9.87,17766
+East Delhi (Vivek Vihar),28.6644,77.315,183,185,2,East Delhi,Delhi,Unhealthy,Unhealthy,CO,CO,126.2,92.8,356.3,224.7,59.2,27.8,88.4,1152,156.9,168.6,16.4,1.1,Low,33,249.5,1871,250.5,4,9.87,17766
+Central Delhi (ITO),28.6285,77.2411,183,185,2,Central Delhi,Delhi,Unhealthy,Unhealthy,CO,CO,126.2,92.8,356.3,224.7,59.2,27.8,88.4,1642.7,156.9,168.6,16.4,1.1,Low,33,249.5,1871,250.5,4,9.87,17766
+Major Dhyan Chand Stadium,28.6111,77.2374,183,185,2,Central Delhi,Delhi,Unhealthy,Unhealthy,CO,CO,126.2,92.8,356.3,224.7,59.2,27.8,88.4,1642.7,156.9,168.6,16.4,1.1,Low,33,249.5,1871,250.5,4,9.87,17766
+Ashok Vihar,28.6915,77.1805,183,185,2,North West Delhi,Delhi,Unhealthy,Unhealthy,CO,CO,126.2,92.8,356.3,224.7,59.2,27.8,88.4,1356.7,156.9,168.6,16.4,1.1,Low,33,249.5,1871,250.5,4,9.87,17766
+Bawana,28.7765,77.0517,183,185,2,North West Delhi,Delhi,Unhealthy,Unhealthy,CO,CO,126.2,92.8,356.3,224.7,59.2,27.8,88.4,1073.2,156.9,168.6,16.4,1.1,Low,33,249.5,1871,250.5,4,9.87,17766
+Rohini,28.7495,77.0566,183,185,2,North West Delhi,Delhi,Unhealthy,Unhealthy,CO,CO,126.2,92.8,356.3,224.7,59.2,27.8,88.4,1210.9,156.9,168.6,16.4,1.1,Low,33,249.5,1871,250.5,4,9.87,17766
+Punjabi Bagh,28.6741,77.131,183,185,2,West Delhi,Delhi,Unhealthy,Unhealthy,CO,CO,126.2,92.8,356.3,224.7,59.2,27.8,88.4,1210.9,156.9,168.6,16.4,1.1,Low,33,249.5,1871,250.5,4,9.87,17766
+Jahangirpuri,28.7294,77.1625,183,185,2,North West Delhi,Delhi,Unhealthy,Unhealthy,CO,CO,126.2,92.8,356.3,224.7,59.2,27.8,88.4,1356.7,156.9,168.6,16.4,1.1,Low,33,249.5,1871,250.5,4,9.87,17766
+Mandir Marg,28.636,77.2,183,185,2,Central Delhi,Delhi,Unhealthy,Unhealthy,CO,CO,126.2,92.8,356.3,224.7,59.2,27.8,88.4,1642.7,156.9,168.6,16.4,1.1,Low,33,249.5,1871,250.5,4,9.87,17766
+Wazirpur,28.7,77.165,183,185,2,North Delhi,Delhi,Unhealthy,Unhealthy,CO,CO,126.2,92.8,356.3,224.7,59.2,27.8,88.4,1356.7,156.9,168.6,16.4,1.1,Low,33,249.5,1871,250.5,4,9.87,17766
+Patparganj,28.6234,77.2864,183,185,2,East Delhi,Delhi,Unhealthy,Unhealthy,CO,CO,126.2,92.8,356.3,224.7,59.2,27.8,88.4,1952.6,156.9,168.6,16.4,1.1,Low,33,249.5,1871,250.5,4,9.87,17766
+Sonia Vihar,28.7108,77.2495,183,185,2,North East Delhi,Delhi,Unhealthy,Unhealthy,CO,CO,126.2,92.8,356.3,224.7,59.2,27.8,88.4,1356.7,156.9,168.6,16.4,1.1,Low,33,249.5,1871,250.5,4,9.87,17766
+Dilshad Garden,28.68,77.32,183,185,2,East Delhi,Delhi,Unhealthy,Unhealthy,CO,CO,126.2,92.8,356.3,224.7,59.2,27.8,88.4,1152,156.9,168.6,16.4,1.1,Low,33,249.5,1871,250.5,4,9.87,17766
+Narela,28.8228,77.1017,183,185,2,North Delhi,Delhi,Unhealthy,Unhealthy,CO,CO,126.2,92.8,356.3,224.7,59.2,27.8,88.4,1073.2,156.9,168.6,16.4,1.1,Low,33,249.5,1871,250.5,4,9.87,17766

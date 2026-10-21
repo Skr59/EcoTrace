@@ -1,0 +1,69 @@
+Location Name,Latitude,Longitude,Region,State,Time Slot,Period,AQI,AQI Category,Dominant Pollutant,PM2.5,PM10,Net AQI Difference
+Greater Noida,28.4744,77.504,UP NCR,Uttar Pradesh,02:30,Night / Off-Peak,191,Unhealthy,CO,149.3,244.7,9
+Greater Noida,28.4744,77.504,UP NCR,Uttar Pradesh,17:59,Evening Peak Hour,200,Unhealthy,CO,83.5,164.6,9
+Airport (IGI),28.5627,77.1187,South West Delhi,Delhi,02:30,Night / Off-Peak,193,Unhealthy,CO,153.7,292.5,6
+Airport (IGI),28.5627,77.1187,South West Delhi,Delhi,17:59,Evening Peak Hour,199,Unhealthy,CO,100.6,228.5,6
+Dwarka (Sector 8),28.5921,77.046,South West Delhi,Delhi,02:30,Night / Off-Peak,193,Unhealthy,CO,153.7,292.5,6
+Dwarka (Sector 8),28.5921,77.046,South West Delhi,Delhi,17:59,Evening Peak Hour,199,Unhealthy,CO,100.6,228.5,6
+R K Puram,28.5645,77.1855,South Delhi,Delhi,02:30,Night / Off-Peak,193,Unhealthy,CO,153.7,292.5,6
+R K Puram,28.5645,77.1855,South Delhi,Delhi,17:59,Evening Peak Hour,199,Unhealthy,CO,100.6,228.5,6
+Sirifort,28.548,77.2157,South Delhi,Delhi,02:30,Night / Off-Peak,193,Unhealthy,CO,153.7,292.5,6
+Sirifort,28.548,77.2157,South Delhi,Delhi,17:59,Evening Peak Hour,199,Unhealthy,CO,100.6,228.5,6
+Okhla Phase-2,28.53,77.27,South East Delhi,Delhi,02:30,Night / Off-Peak,193,Unhealthy,CO,153.7,292.5,6
+Okhla Phase-2,28.53,77.27,South East Delhi,Delhi,17:59,Evening Peak Hour,199,Unhealthy,CO,100.6,228.5,6
+Gurugram,28.4595,77.0266,Haryana NCR,Haryana,02:30,Night / Off-Peak,193,Unhealthy,CO,153.7,292.5,6
+Gurugram,28.4595,77.0266,Haryana NCR,Haryana,17:59,Evening Peak Hour,199,Unhealthy,CO,100.6,228.5,6
+Faridabad,28.4089,77.3178,Haryana NCR,Haryana,02:30,Night / Off-Peak,193,Unhealthy,CO,153.7,292.5,6
+Faridabad,28.4089,77.3178,Haryana NCR,Haryana,17:59,Evening Peak Hour,199,Unhealthy,CO,100.6,228.5,6
+Noida,28.5355,77.391,UP NCR,Uttar Pradesh,02:30,Night / Off-Peak,193,Unhealthy,CO,153.7,292.5,6
+Noida,28.5355,77.391,UP NCR,Uttar Pradesh,17:59,Evening Peak Hour,199,Unhealthy,CO,100.6,228.5,6
+Bulandshahr,28.4069,77.8498,UP NCR,Uttar Pradesh,02:30,Night / Off-Peak,191,Unhealthy,CO,161.6,186.1,4
+Bulandshahr,28.4069,77.8498,UP NCR,Uttar Pradesh,17:59,Evening Peak Hour,195,Unhealthy,CO,75.3,105.7,4
+Ghaziabad,28.6692,77.4538,UP NCR,Uttar Pradesh,02:30,Night / Off-Peak,183,Unhealthy,CO,136.9,325.5,4
+Ghaziabad,28.6692,77.4538,UP NCR,Uttar Pradesh,17:59,Evening Peak Hour,187,Unhealthy,CO,73.6,129.1,4
+Hapur,28.7306,77.7759,UP NCR,Uttar Pradesh,02:30,Night / Off-Peak,183,Unhealthy,CO,136.9,325.5,4
+Hapur,28.7306,77.7759,UP NCR,Uttar Pradesh,17:59,Evening Peak Hour,187,Unhealthy,CO,73.6,129.1,4
+Meerut,28.9845,77.7064,UP NCR,Uttar Pradesh,02:30,Night / Off-Peak,183,Unhealthy,CO,136.9,325.5,4
+Meerut,28.9845,77.7064,UP NCR,Uttar Pradesh,17:59,Evening Peak Hour,187,Unhealthy,CO,73.6,129.1,4
+Alwar,27.5665,76.625,Rajasthan NCR,Rajasthan,02:30,Night / Off-Peak,157,Unhealthy,CO,98.6,172.6,4
+Alwar,27.5665,76.625,Rajasthan NCR,Rajasthan,17:59,Evening Peak Hour,161,Unhealthy,CO,44.7,97.5,4
+Najafgarh,28.5708,76.9339,South West Delhi,Delhi,02:30,Night / Off-Peak,174,Unhealthy,CO,126.2,302.7,4
+Najafgarh,28.5708,76.9339,South West Delhi,Delhi,17:59,Evening Peak Hour,178,Unhealthy,CO,79.5,234.5,4
+Bahadurgarh,28.393,76.937,Haryana NCR,Haryana,02:30,Night / Off-Peak,174,Unhealthy,CO,126.2,302.7,4
+Bahadurgarh,28.393,76.937,Haryana NCR,Haryana,17:59,Evening Peak Hour,178,Unhealthy,CO,79.5,234.5,4
+Dharuhera,28.236,76.645,Haryana NCR,Haryana,02:30,Night / Off-Peak,174,Unhealthy,CO,126.2,302.7,4
+Dharuhera,28.236,76.645,Haryana NCR,Haryana,17:59,Evening Peak Hour,178,Unhealthy,CO,79.5,234.5,4
+Manesar,28.35,76.94,Haryana NCR,Haryana,02:30,Night / Off-Peak,174,Unhealthy,CO,126.2,302.7,4
+Manesar,28.35,76.94,Haryana NCR,Haryana,17:59,Evening Peak Hour,178,Unhealthy,CO,79.5,234.5,4
+Sohna,28.24,76.85,Haryana NCR,Haryana,02:30,Night / Off-Peak,174,Unhealthy,CO,126.2,302.7,4
+Sohna,28.24,76.85,Haryana NCR,Haryana,17:59,Evening Peak Hour,178,Unhealthy,CO,79.5,234.5,4
+Mundka,28.6826,77.0327,West Delhi,Delhi,02:30,Night / Off-Peak,183,Unhealthy,CO,126.2,356.3,2
+Mundka,28.6826,77.0327,West Delhi,Delhi,17:59,Evening Peak Hour,185,Unhealthy,CO,92.8,224.7,2
+East Delhi (Vivek Vihar),28.6644,77.315,East Delhi,Delhi,02:30,Night / Off-Peak,183,Unhealthy,CO,126.2,356.3,2
+East Delhi (Vivek Vihar),28.6644,77.315,East Delhi,Delhi,17:59,Evening Peak Hour,185,Unhealthy,CO,92.8,224.7,2
+Central Delhi (ITO),28.6285,77.2411,Central Delhi,Delhi,02:30,Night / Off-Peak,183,Unhealthy,CO,126.2,356.3,2
+Central Delhi (ITO),28.6285,77.2411,Central Delhi,Delhi,17:59,Evening Peak Hour,185,Unhealthy,CO,92.8,224.7,2
+Major Dhyan Chand Stadium,28.6111,77.2374,Central Delhi,Delhi,02:30,Night / Off-Peak,183,Unhealthy,CO,126.2,356.3,2
+Major Dhyan Chand Stadium,28.6111,77.2374,Central Delhi,Delhi,17:59,Evening Peak Hour,185,Unhealthy,CO,92.8,224.7,2
+Ashok Vihar,28.6915,77.1805,North West Delhi,Delhi,02:30,Night / Off-Peak,183,Unhealthy,CO,126.2,356.3,2
+Ashok Vihar,28.6915,77.1805,North West Delhi,Delhi,17:59,Evening Peak Hour,185,Unhealthy,CO,92.8,224.7,2
+Bawana,28.7765,77.0517,North West Delhi,Delhi,02:30,Night / Off-Peak,183,Unhealthy,CO,126.2,356.3,2
+Bawana,28.7765,77.0517,North West Delhi,Delhi,17:59,Evening Peak Hour,185,Unhealthy,CO,92.8,224.7,2
+Rohini,28.7495,77.0566,North West Delhi,Delhi,02:30,Night / Off-Peak,183,Unhealthy,CO,126.2,356.3,2
+Rohini,28.7495,77.0566,North West Delhi,Delhi,17:59,Evening Peak Hour,185,Unhealthy,CO,92.8,224.7,2
+Punjabi Bagh,28.6741,77.131,West Delhi,Delhi,02:30,Night / Off-Peak,183,Unhealthy,CO,126.2,356.3,2
+Punjabi Bagh,28.6741,77.131,West Delhi,Delhi,17:59,Evening Peak Hour,185,Unhealthy,CO,92.8,224.7,2
+Jahangirpuri,28.7294,77.1625,North West Delhi,Delhi,02:30,Night / Off-Peak,183,Unhealthy,CO,126.2,356.3,2
+Jahangirpuri,28.7294,77.1625,North West Delhi,Delhi,17:59,Evening Peak Hour,185,Unhealthy,CO,92.8,224.7,2
+Mandir Marg,28.636,77.2,Central Delhi,Delhi,02:30,Night / Off-Peak,183,Unhealthy,CO,126.2,356.3,2
+Mandir Marg,28.636,77.2,Central Delhi,Delhi,17:59,Evening Peak Hour,185,Unhealthy,CO,92.8,224.7,2
+Wazirpur,28.7,77.165,North Delhi,Delhi,02:30,Night / Off-Peak,183,Unhealthy,CO,126.2,356.3,2
+Wazirpur,28.7,77.165,North Delhi,Delhi,17:59,Evening Peak Hour,185,Unhealthy,CO,92.8,224.7,2
+Patparganj,28.6234,77.2864,East Delhi,Delhi,02:30,Night / Off-Peak,183,Unhealthy,CO,126.2,356.3,2
+Patparganj,28.6234,77.2864,East Delhi,Delhi,17:59,Evening Peak Hour,185,Unhealthy,CO,92.8,224.7,2
+Sonia Vihar,28.7108,77.2495,North East Delhi,Delhi,02:30,Night / Off-Peak,183,Unhealthy,CO,126.2,356.3,2
+Sonia Vihar,28.7108,77.2495,North East Delhi,Delhi,17:59,Evening Peak Hour,185,Unhealthy,CO,92.8,224.7,2
+Dilshad Garden,28.68,77.32,East Delhi,Delhi,02:30,Night / Off-Peak,183,Unhealthy,CO,126.2,356.3,2
+Dilshad Garden,28.68,77.32,East Delhi,Delhi,17:59,Evening Peak Hour,185,Unhealthy,CO,92.8,224.7,2
+Narela,28.8228,77.1017,North Delhi,Delhi,02:30,Night / Off-Peak,183,Unhealthy,CO,126.2,356.3,2
+Narela,28.8228,77.1017,North Delhi,Delhi,17:59,Evening Peak Hour,185,Unhealthy,CO,92.8,224.7,2

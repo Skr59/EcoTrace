@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Kisan Carbon Hub — Pitch Deck | EDC IIT Delhi</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --bg: #04140c;
+    --panel: #0a2417;
+    --green: #10b981;
+    --green-d: #059669;
+    --lime: #a3e635;
+    --mint: #d1fae5;
+    --text: #f0fdf4;
+    --muted: #93b6a5;
+    --line: rgba(16, 185, 129, 0.22);
+  }
+  html, body { height: 100%; }
+  body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    overflow: hidden;
+    -webkit-font-smoothing: antialiased;
+  }
+  .deck { position: relative; width: 100vw; height: 100vh; }
+
+  .slide {
+    position: absolute; inset: 0;
+    opacity: 0; visibility: hidden;
+    transform: translateY(14px);
+    transition: opacity .5s ease, transform .5s ease, visibility .5s;
+    display: flex; flex-direction: column; justify-content: center;
+    padding: 7vh 8vw 12vh;
+    background:
+      radial-gradient(1000px 500px at 85% -10%, rgba(16,185,129,.14), transparent 60%),
+      radial-gradient(700px 400px at -10% 110%, rgba(163,230,53,.10), transparent 60%),
+      var(--bg);
+  }
+  .slide.active { opacity: 1; visibility: visible; transform: none; }
+
+  .eyebrow {
+    font-family: 'Sora', sans-serif;
+    font-size: clamp(.7rem, 1.1vw, .85rem);
+    letter-spacing: .22em; text-transform: uppercase;
+    color: var(--lime); font-weight: 700; margin-bottom: 1.1rem;
+    display: inline-flex; align-items: center; gap: .6rem;
+  }
+  .eyebrow::before { content: ""; width: 26px; height: 2px; background: var(--lime); display: inline-block; }
+
+  h1 { font-family: 'Sora', sans-serif; font-weight: 800; line-height: 1.02; font-size: clamp(2.6rem, 6.4vw, 5.4rem); letter-spacing: -.02em; }
+  h2 { font-family: 'Sora', sans-serif; font-weight: 700; line-height: 1.08; font-size: clamp(1.9rem, 4vw, 3.3rem); letter-spacing: -.015em; max-width: 20ch; }
+  h3 { font-family: 'Sora', sans-serif; font-weight: 700; font-size: clamp(1.05rem, 1.6vw, 1.3rem); }
+  .lead { font-size: clamp(1rem, 1.5vw, 1.35rem); color: var(--mint); line-height: 1.55; max-width: 62ch; margin-top: 1.1rem; }
+  .muted { color: var(--muted); }
+  .lime { color: var(--lime); }
+  .green { color: var(--green); }
+
+  .grid-2 { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.4rem; margin-top: 2.2rem; }
+  .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.3rem; margin-top: 2.2rem; }
+  .grid-4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.1rem; margin-top: 2.2rem; }
+  .grid-5 { display: grid; grid-template-columns: repeat(5, 1fr); gap: 1rem; margin-top: 2.2rem; }
+
+  .card {
+    background: linear-gradient(160deg, rgba(16,185,129,.12), rgba(255,255,255,.03));
+    border: 1px solid var(--line); border-radius: 18px; padding: 1.5rem 1.4rem;
+    position: relative; overflow: hidden;
+  }
+  .card .idx { font-family: 'Sora', sans-serif; font-size: .8rem; font-weight: 700; color: var(--lime); letter-spacing: .1em; }
+  .card h3 { margin: .55rem 0 .5rem; }
+  .card p { font-size: .93rem; color: var(--muted); line-height: 1.55; }
+  .card.plain { background: rgba(255,255,255,.03); }
+
+  .stat { font-family: 'Sora', sans-serif; font-weight: 800; font-size: clamp(2rem, 3.6vw, 3.1rem); color: var(--lime); line-height: 1; }
+  .stat-l { font-size: .82rem; color: var(--muted); margin-top: .5rem; line-height: 1.4; }
+
+  .steps { display: flex; align-items: stretch; gap: .7rem; margin-top: 2.4rem; flex-wrap: wrap; }
+  .step { flex: 1; min-width: 150px; background: rgba(255,255,255,.04); border: 1px solid var(--line); border-radius: 16px; padding: 1.3rem 1.1rem; }
+  .step .n { width: 30px; height: 30px; border-radius: 50%; background: var(--green); color: #04140c; font-family: 'Sora', sans-serif; font-weight: 800; font-size: .9rem; display: flex; align-items: center; justify-content: center; margin-bottom: .8rem; }
+  .step h4 { font-family: 'Sora', sans-serif; font-size: 1rem; font-weight: 700; margin-bottom: .4rem; }
+  .step p { font-size: .84rem; color: var(--muted); line-height: 1.5; }
+
+  .badge { display: inline-flex; align-items: center; gap: .5rem; background: rgba(16,185,129,.15); border: 1px solid var(--line); color: var(--mint); padding: .4rem .85rem; border-radius: 999px; font-size: .8rem; font-weight: 600; }
+  .pill { display: inline-block; background: rgba(163,230,53,.14); border: 1px solid rgba(163,230,53,.35); color: var(--lime); font-size: .75rem; font-weight: 700; padding: .25rem .7rem; border-radius: 999px; letter-spacing: .04em; }
+
+  .flow { display: flex; gap: .6rem; align-items: center; flex-wrap: wrap; margin-top: 2rem; }
+  .flow .f { background: rgba(255,255,255,.05); border: 1px solid var(--line); border-radius: 14px; padding: .9rem 1.1rem; font-family: 'Sora', sans-serif; font-weight: 600; font-size: .95rem; }
+  .flow .arw { color: var(--lime); font-weight: 800; }
+
+  ul.clean { list-style: none; margin-top: 1.6rem; display: grid; gap: .95rem; max-width: 68ch; }
+  ul.clean li { display: flex; gap: .8rem; font-size: clamp(.95rem, 1.3vw, 1.1rem); line-height: 1.5; color: var(--mint); }
+  ul.clean li::before { content: ""; flex: none; width: 8px; height: 8px; border-radius: 50%; background: var(--lime); margin-top: .55em; }
+
+  table { width: 100%; border-collapse: collapse; margin-top: 2rem; font-size: clamp(.85rem, 1.2vw, 1rem); }
+  th, td { text-align: left; padding: .85rem .9rem; border-bottom: 1px solid rgba(255,255,255,.09); }
+  th { font-family: 'Sora', sans-serif; font-size: .78rem; text-transform: uppercase; letter-spacing: .1em; color: var(--lime); }
+  td.hl { color: var(--lime); font-weight: 700; }
+  tr:last-child td { border-bottom: none; }
+
+  .funnel { display: grid; gap: .8rem; margin-top: 2rem; }
+  .bar { border-radius: 12px; padding: .9rem 1.2rem; font-weight: 600; display: flex; justify-content: space-between; align-items: center; border: 1px solid var(--line); }
+  .bar span:last-child { font-family: 'Sora', sans-serif; font-weight: 800; color: var(--lime); }
+
+  .footnote { margin-top: 1.6rem; font-size: .78rem; color: var(--muted); font-style: italic; }
+
+  .cover {
+    justify-content: center;
+    background:
+      linear-gradient(90deg, rgba(4,20,12,.96) 30%, rgba(4,20,12,.55) 100%),
+      url("https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1920&q=70") center/cover no-repeat;
+  }
+  .cover .tag { font-family: 'Sora', sans-serif; letter-spacing: .3em; text-transform: uppercase; font-size: .8rem; color: var(--lime); font-weight: 700; }
+  .cover h1 { margin: 1.2rem 0 .6rem; }
+  .cover .sub { font-family: 'Sora', sans-serif; font-size: clamp(1.1rem, 2.2vw, 1.9rem); color: var(--mint); font-weight: 600; }
+  .cover .meta { margin-top: 3rem; display: flex; gap: 1.4rem; flex-wrap: wrap; font-size: .9rem; color: var(--muted); }
+  .cover .meta b { color: var(--text); font-weight: 600; }
+
+  .closing {
+    background:
+      linear-gradient(90deg, rgba(4,20,12,.95) 35%, rgba(4,20,12,.5) 100%),
+      url("https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1920&q=70") center/cover no-repeat;
+  }
+
+  .kv { display: grid; grid-template-columns: auto 1fr; gap: .5rem 1.2rem; margin-top: 1.6rem; font-size: .95rem; }
+  .kv dt { color: var(--muted); }
+  .kv dd { font-weight: 600; color: var(--text); }
+
+  /* controls */
+  .progress { position: fixed; top: 0; left: 0; height: 3px; background: var(--lime); z-index: 60; transition: width .4s ease; }
+  .controls {
+    position: fixed; bottom: 0; left: 0; right: 0; height: 60px; z-index: 50;
+    display: flex; align-items: center; justify-content: space-between; padding: 0 22px;
+    background: linear-gradient(to top, rgba(0,0,0,.6), transparent);
+  }
+  .ctrl-group { display: flex; align-items: center; gap: 10px; }
+  .cbtn {
+    background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.18);
+    color: var(--text); width: 40px; height: 40px; border-radius: 12px; cursor: pointer;
+    font-size: 17px; display: flex; align-items: center; justify-content: center; transition: .2s;
+  }
+  .cbtn:hover { background: var(--green); border-color: var(--green); color: #04140c; }
+  .cbtn.wide { width: auto; padding: 0 15px; font-size: 13px; font-weight: 700; font-family: 'Sora', sans-serif; }
+  .counter { font-variant-numeric: tabular-nums; font-family: 'Sora', sans-serif; font-size: 13px; color: #cdeadd; letter-spacing: .06em; }
+  .hint { font-size: 11.5px; color: rgba(255,255,255,.5); }
+
+  @media print {
+    @page { size: landscape; margin: 0; }
+    body { overflow: visible; background: var(--bg); }
+    .deck { height: auto; }
+    .slide { position: relative; opacity: 1 !important; visibility: visible !important; transform: none !important; height: 100vh; page-break-after: always; }
+    .controls, .progress { display: none !important; }
+  }
+</style>
+</head>
+<body>
+
+<div class="deck" id="deck">
+
+  <!-- 1. COVER -->
+  <section class="slide cover active">
+    <div class="tag">EDC IIT Delhi · Pitch</div>
+    <h1>Kisan<br />Carbon Hub</h1>
+    <div class="sub">Every farm, a carbon asset.</div>
+    <p class="lead">Register land → measure carbon → earn &amp; trade carbon credits. Built for the Indian farmer.</p>
+    <div class="meta">
+      <span><b>Founder:</b> Shivam Kumar</span>
+      <span><b>Stage:</b> Pre-seed · Product live</span>
+      <span><b>Demo:</b> carbon-cre.netlify.app</span>
+      <span><b>2026</b></span>
+    </div>
+  </section>
+
+  <!-- 2. PROBLEM -->
+  <section class="slide">
+    <div class="eyebrow">The problem</div>
+    <h2>Farmers feed the planet — but can't sell its biggest benefit</h2>
+    <div class="grid-3">
+      <div class="card">
+        <div class="idx">01</div>
+        <h3>Invisible value</h3>
+        <p>Trees, healthy soil and clean practices pull carbon out of the air — yet a smallholder earns <b class="green">$0</b> for it.</p>
+      </div>
+      <div class="card">
+        <div class="idx">02</div>
+        <h3>Locked out of markets</h3>
+        <p>Carbon credits demand measurement, verification and paperwork that no 2-acre farmer can navigate alone.</p>
+      </div>
+      <div class="card">
+        <div class="idx">03</div>
+        <h3>No farmer-grade tool</h3>
+        <p>Existing platforms are English-only, enterprise-priced and built for brokers — not for the field.</p>
+      </div>
+    </div>
+    <div class="grid-3" style="margin-top:1.6rem;">
+      <div><div class="stat">146M+</div><div class="stat-l">farm holdings in India</div></div>
+      <div><div class="stat">2070</div><div class="stat-l">India's net-zero commitment</div></div>
+      <div><div class="stat">&lt;1%</div><div class="stat-l">of farms earning carbon revenue today</div></div>
+    </div>
+  </section>
+
+  <!-- 3. SOLUTION -->
+  <section class="slide">
+    <div class="eyebrow">Our solution</div>
+    <h2>One platform: from field to credit</h2>
+    <p class="lead">A vernacular-first, mobile-first system that turns a farm's real-world data into verified, tradable carbon credits — without the farmer ever seeing a spreadsheet.</p>
+    <div class="flow">
+      <div class="f">Register land</div><div class="arw">→</div>
+      <div class="f">Measure trees, land &amp; vehicles</div><div class="arw">→</div>
+      <div class="f">Auto-generate credits</div><div class="arw">→</div>
+      <div class="f">Sell on marketplace</div><div class="arw">→</div>
+      <div class="f">Get paid to wallet</div>
+    </div>
+    <div class="grid-4" style="margin-top:2.4rem;">
+      <div class="card plain"><h3>Map-based</h3><p>Draw your field on satellite imagery — area auto-calculated in hectares.</p></div>
+      <div class="card plain"><h3>Live GPS</h3><p>Real location capture for boundaries, plots and survey points.</p></div>
+      <div class="card plain"><h3>Drone MRV</h3><p>Grid survey missions verify canopy &amp; coverage from the air.</p></div>
+      <div class="card plain"><h3>Live pricing</h3><p>Credits valued against live market rates, paid into a wallet.</p></div>
+    </div>
+  </section>
+
+  <!-- 4. PRODUCT -->
+  <section class="slide">
+    <div class="eyebrow">The product</div>
+    <h2>A working platform — not a slide</h2>
+    <div class="grid-5">
+      <div class="card"><div class="idx">01</div><h3>Farmer Hub</h3><p>Lands, trees, vehicles, wallet &amp; credit balance.</p></div>
+      <div class="card"><div class="idx">02</div><h3>Credit Calculator</h3><p>Land type + trees → credits &amp; live market value.</p></div>
+      <div class="card"><div class="idx">03</div><h3>Drone Command</h3><p>Live camera, grid missions, DIY build guide.</p></div>
+      <div class="card"><div class="idx">04</div><h3>Marketplace</h3><p>List, buy &amp; sell credits with payments &amp; wallet.</p></div>
+      <div class="card"><div class="idx">05</div><h3>Admin Console</h3><p>Farmer KYC, verification &amp; listing approvals.</p></div>
+    </div>
+    <div class="flow">
+      <span class="badge">Live &amp; deployed</span>
+      <span class="badge">Auth + OTP</span>
+      <span class="badge">Postgres database</span>
+      <span class="badge">Satellite maps</span>
+      <span class="badge">Payments-ready</span>
+    </div>
+    <div class="footnote">End-to-end flow working today: registration → OTP → land &amp; trees → credit calculation → marketplace listing.</div>
+  </section>
+
+  <!-- 5. HOW IT WORKS / MRV -->
+  <section class="slide">
+    <div class="eyebrow">How it works · MRV</div>
+    <h2>Measurement you can actually trust</h2>
+    <div class="grid-3">
+      <div class="card">
+        <div class="idx">STEP 01</div>
+        <h3>Map the land</h3>
+        <p>Farmer draws the field boundary on a live satellite map. Area &amp; perimeter are computed instantly in hectares.</p>
+      </div>
+      <div class="card">
+        <div class="idx">STEP 02</div>
+        <h3>Survey from the air</h3>
+        <p>A survey drone flies an auto-generated grid over the plot, capturing canopy &amp; coverage with a live FPV feed.</p>
+      </div>
+      <div class="card">
+        <div class="idx">STEP 03</div>
+        <h3>Convert to credits</h3>
+        <p>Emission factors + field data + live prices → verified credits, listed on the marketplace automatically.</p>
+      </div>
+    </div>
+    <div class="funnel">
+      <div class="bar" style="background:rgba(16,185,129,.14);"><span>Boundary drawn on satellite map</span><span>auto area (ha)</span></div>
+      <div class="bar" style="background:rgba(16,185,129,.10);"><span>Drone grid mission + live GPS capture</span><span>canopy verified</span></div>
+      <div class="bar" style="background:rgba(163,230,53,.12);"><span>Credits generated &amp; listed</span><span>₹ into wallet</span></div>
+    </div>
+    <div class="footnote">MRV = Measurement, Reporting &amp; Verification — the core cost centre we automate.</div>
+  </section>
+
+  <!-- 6. MARKET -->
+  <section class="slide">
+    <div class="eyebrow">Market opportunity</div>
+    <h2>Carbon is finally being priced — farms still aren't paid</h2>
+    <div class="grid-3">
+      <div class="card">
+        <div class="idx">TAM</div>
+        <div class="stat" style="margin-top:.6rem;">$10B+</div>
+        <p style="margin-top:.6rem;">Global voluntary carbon market projected by 2030 <span class="muted">(industry estimate)</span>.</p>
+      </div>
+      <div class="card">
+        <div class="idx">SAM</div>
+        <div class="stat" style="margin-top:.6rem;">Nature</div>
+        <p style="margin-top:.6rem;">India's nature-based &amp; agricultural credits — the fastest-growing credit class.</p>
+      </div>
+      <div class="card">
+        <div class="idx">SOM</div>
+        <div class="stat" style="margin-top:.6rem;">500</div>
+        <p style="margin-top:.6rem;">Farms across 3 pilot districts in Uttar Pradesh in Year 1.</p>
+      </div>
+    </div>
+    <ul class="clean" style="margin-top:1.8rem;">
+      <li>India's <b>Carbon Credit Trading Scheme (2023)</b> creates a domestic price for credits.</li>
+      <li>Corporates need credible, farm-level offsets to hit their net-zero pledges.</li>
+      <li>FPOs &amp; co-ops already aggregate farmers — our natural distribution channel.</li>
+    </ul>
+  </section>
+
+  <!-- 7. BUSINESS MODEL -->
+  <section class="slide">
+    <div class="eyebrow">Business model</div>
+    <h2>We earn when the farmer earns</h2>
+    <div class="grid-4">
+      <div class="card"><div class="idx">01</div><h3>Marketplace commission</h3><p><b class="lime">10–15%</b> take-rate on every credit sold between farmers and buyers.</p></div>
+      <div class="card"><div class="idx">02</div><h3>Verification SaaS</h3><p>Monthly per-farm fee for FPOs &amp; enterprises needing audit-ready MRV.</p></div>
+      <div class="card"><div class="idx">03</div><h3>Aggregation &amp; offtake</h3><p>We bundle small plots into corporate-grade credit bundles at a spread.</p></div>
+      <div class="card"><div class="idx">04</div><h3>Enterprise data</h3><p>Carbon &amp; ESG reporting APIs sold to agri-business and insurers.</p></div>
+    </div>
+    <div class="flow">
+      <span class="pill">Landlord farmer → free</span>
+      <span class="pill">FPO plan → ₹ per farm / yr</span>
+      <span class="pill">Enterprise → custom contract</span>
+    </div>
+    <div class="footnote">Unit economics improve as verification cost falls with drone-based measurement.</div>
+  </section>
+
+  <!-- 8. TRACTION -->
+  <section class="slide">
+    <div class="eyebrow">Traction &amp; status</div>
+    <h2>Shipped, deployed and working</h2>
+    <div class="grid-2">
+      <div>
+        <ul class="clean" style="margin-top:.5rem;">
+          <li>Full platform live on the web — authentication, OTP &amp; secure database.</li>
+          <li>Land registration with satellite boundary drawing &amp; hectare calculation.</li>
+          <li>Tree &amp; vehicle carbon tracking with live credit valuation.</li>
+          <li>Carbon marketplace with listings, wallet &amp; payment flow.</li>
+          <li>Drone command centre: live FPV, grid missions, connect guide.</li>
+          <li>Admin panel for farmer verification &amp; listing approval.</li>
+        </ul>
+      </div>
+      <div>
+        <div class="card" style="margin-top:.5rem;">
+          <div class="idx">NEXT 90 DAYS</div>
+          <div class="kv">
+            <dt>Pilot</dt><dd>1 FPO · 500 farms · 3 districts</dd>
+            <dt>Verification</dt><dd>Partner with a accredited verifier</dd>
+            <dt>Language</dt><dd>Hindi + 2 regional languages</dd>
+            <dt>Mobile</dt><dd>Android app for field agents</dd>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. COMPETITION -->
+  <section class="slide">
+    <div class="eyebrow">Competition &amp; our edge</div>
+    <h2>Built for the field, not the boardroom</h2>
+    <table>
+      <thead>
+        <tr><th>Approach</th><th>Farmer-first</th><th>Drone MRV</th><th>All-in-one</th><th>Affordable</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Manual consultants</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+        <tr><td>Global carbon platforms</td><td>—</td><td>Partial</td><td>Partial</td><td>—</td></tr>
+        <tr><td>Agri-tech apps</td><td>Yes</td><td>—</td><td>—</td><td>Yes</td></tr>
+        <tr><td class="hl">Kisan Carbon Hub</td><td class="hl">Yes</td><td class="hl">Yes</td><td class="hl">Yes</td><td class="hl">Yes</td></tr>
+      </tbody>
+    </table>
+    <div class="grid-3" style="margin-top:1.8rem;">
+      <div class="card plain"><h3>Our moat</h3><p>Drone + map based MRV cuts the biggest cost in carbon markets — verification.</p></div>
+      <div class="card plain"><h3>Distribution</h3><p>Embedded in FPOs &amp; co-ops, not sold top-down to corporates.</p></div>
+      <div class="card plain"><h3>Data flywheel</h3><p>Every surveyed plot improves our emission factors &amp; pricing models.</p></div>
+    </div>
+  </section>
+
+  <!-- 10. GO TO MARKET -->
+  <section class="slide">
+    <div class="eyebrow">Go-to-market</div>
+    <h2>Land with one FPO, scale by state</h2>
+    <div class="steps">
+      <div class="step"><div class="n">1</div><h4>Pilot</h4><p>One FPO, 500 farms in a single district. Prove credit yield &amp; farmer payout.</p></div>
+      <div class="step"><div class="n">2</div><h4>Scale</h4><p>Roll out across UP, MP &amp; Punjab via co-ops and Krishi Vigyan Kendras.</p></div>
+      <div class="step"><div class="n">3</div><h4>Offtake</h4><p>Sign corporate buyers needing credible, farm-level carbon offsets.</p></div>
+      <div class="step"><div class="n">4</div><h4>Platform</h4><p>Open API for verifiers, insurers &amp; lenders to plug into field data.</p></div>
+    </div>
+    <div class="flow">
+      <span class="badge">FPOs &amp; co-ops</span>
+      <span class="badge">Krishi Vigyan Kendras</span>
+      <span class="badge">Banking correspondents</span>
+      <span class="badge">Agri-input partnerships</span>
+    </div>
+  </section>
+
+  <!-- 11. TEAM -->
+  <section class="slide">
+    <div class="eyebrow">Team</div>
+    <h2>Builder-led, hiring for the field</h2>
+    <div class="grid-3">
+      <div class="card">
+        <div class="idx">FOUNDER</div>
+        <h3>Shivam Kumar</h3>
+        <p>Product, engineering &amp; design. Built the entire platform end-to-end — web, maps, database and drone command.</p>
+      </div>
+      <div class="card">
+        <div class="idx">HIRING</div>
+        <h3>MRV / Carbon Lead</h3>
+        <p>Verification standards, emission factors and accreditations.</p>
+      </div>
+      <div class="card">
+        <div class="idx">HIRING</div>
+        <h3>Field Operations</h3>
+        <p>FPO partnerships, pilot rollout and drone survey teams.</p>
+      </div>
+    </div>
+    <div class="footnote">Advisors in progress: agronomy, carbon-market compliance and rural distribution.</div>
+  </section>
+
+  <!-- 12. THE ASK -->
+  <section class="slide">
+    <div class="eyebrow">The ask</div>
+    <h2>Raising ₹25 Lakh pre-seed</h2>
+    <div class="grid-2">
+      <div>
+        <div class="funnel" style="margin-top:1.4rem;">
+          <div class="bar" style="background:rgba(16,185,129,.18); width:100%;"><span>Product &amp; MRV engineering</span><span>40%</span></div>
+          <div class="bar" style="background:rgba(16,185,129,.13); width:80%;"><span>Pilot operations (3 districts)</span><span>30%</span></div>
+          <div class="bar" style="background:rgba(163,230,53,.14); width:60%;"><span>Verification &amp; certification</span><span>20%</span></div>
+          <div class="bar" style="background:rgba(255,255,255,.06); width:40%;"><span>Go-to-market &amp; outreach</span><span>10%</span></div>
+        </div>
+      </div>
+      <div class="card" style="align-self:start;">
+        <div class="idx">WHAT IT UNLOCKS</div>
+        <ul class="clean" style="margin-top:1rem;">
+          <li>First verified carbon credits sold from real Indian farms.</li>
+          <li>500-farm pilot with a signed FPO partner.</li>
+          <li>Hindi app for field agents.</li>
+          <li>Data to raise a larger seed round.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footnote">Figures are indicative — happy to walk through the detailed plan and unit economics.</div>
+  </section>
+
+  <!-- 13. CLOSING -->
+  <section class="slide closing">
+    <div class="eyebrow">The vision</div>
+    <h2 style="max-width:16ch;">If farms get paid for carbon they already capture, we build India's largest distributed carbon asset class.</h2>
+    <div class="flow" style="margin-top:2.4rem;">
+      <span class="badge">Shivam Kumar</span>
+      <span class="badge">carbon-cre.netlify.app</span>
+      <span class="badge">Built for EDC IIT Delhi · 2026</span>
+    </div>
+    <p class="lead" style="margin-top:2rem;">Thank you — questions &amp; demo welcome.</p>
+  </section>
+
+</div>
+
+<div class="progress" id="progress"></div>
+<div class="controls">
+  <div class="ctrl-group">
+    <button class="cbtn" id="prev" title="Previous (←)">‹</button>
+    <button class="cbtn" id="next" title="Next (→)">›</button>
+    <span class="counter" id="counter">1 / 13</span>
+  </div>
+  <span class="hint">← → arrows · click buttons · P = print / PDF</span>
+  <div class="ctrl-group">
+    <button class="cbtn wide" id="print" title="Print or save as PDF">⤓ PDF</button>
+  </div>
+</div>
+
+<script>
+  const slides = Array.from(document.querySelectorAll('.slide'));
+  const progress = document.getElementById('progress');
+  const counter = document.getElementById('counter');
+  let i = 0;
+
+  function show(n) {
+    i = Math.max(0, Math.min(slides.length - 1, n));
+    slides.forEach((s, k) => s.classList.toggle('active', k === i));
+    progress.style.width = ((i + 1) / slides.length * 100) + '%';
+    counter.textContent = (i + 1) + ' / ' + slides.length;
+    history.replaceState(null, '', '#slide-' + (i + 1));
+  }
+  function next() { show(i + 1); }
+  function prev() { show(i - 1); }
+
+  document.getElementById('next').addEventListener('click', next);
+  document.getElementById('prev').addEventListener('click', prev);
+  document.getElementById('print').addEventListener('click', () => window.print());
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowRight' || e.key === 'PageDown' || e.key === ' ') { e.preventDefault(); next(); }
+    else if (e.key === 'ArrowLeft' || e.key === 'PageUp') { e.preventDefault(); prev(); }
+    else if (e.key === 'Home') show(0);
+    else if (e.key === 'End') show(slides.length - 1);
+    else if (e.key.toLowerCase() === 'p') window.print();
+  });
+
+  const m = location.hash.match(/slide-(\d+)/);
+  show(m ? parseInt(m[1], 10) - 1 : 0);
+</script>
+</body>
+</html>

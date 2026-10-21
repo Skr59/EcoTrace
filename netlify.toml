@@ -1,0 +1,17 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+[functions]
+  node_bundler = "esbuild"
+
+# The AQI routes fetch live data from AQICN and Open-Meteo on every request,
+# so they need more than the 30 s default before they are killed.
+[functions."/api/aqi/*"]
+  timeout = 60

@@ -1,0 +1,1780 @@
+{
+ "source": "https://en.wikipedia.org/wiki/List_of_power_stations_in_India",
+ "retrievedAt": "2026-10-21T13:45:11.550Z",
+ "count": 197,
+ "facilities": [
+  {
+   "name": "Kakrapar Atomic Power Station",
+   "state": "Gujarat",
+   "lat": 21.23583,
+   "lng": 73.35083,
+   "capacityMW": 1840,
+   "owner": "NPCIL",
+   "fuel": "Nuclear"
+  },
+  {
+   "name": "Tarapur Atomic Power Station",
+   "state": "Maharashtra",
+   "lat": 19.83083,
+   "lng": 72.65833,
+   "capacityMW": 1400,
+   "owner": "NPCIL",
+   "fuel": "Nuclear"
+  },
+  {
+   "name": "Kudankulam Nuclear Power Plant",
+   "state": "Tamil Nadu",
+   "lat": 8.1675,
+   "lng": 77.71278,
+   "capacityMW": 2000,
+   "owner": "NPCIL",
+   "fuel": "Nuclear"
+  },
+  {
+   "name": "Kaiga Nuclear Power Plant",
+   "state": "Karnataka",
+   "lat": 14.86472,
+   "lng": 74.43861,
+   "capacityMW": 880,
+   "owner": "NPCIL",
+   "fuel": "Nuclear"
+  },
+  {
+   "name": "Madras Atomic Power Station",
+   "state": "Tamil Nadu",
+   "lat": 12.5575,
+   "lng": 80.17528,
+   "capacityMW": 440,
+   "owner": "NPCIL",
+   "fuel": "Nuclear"
+  },
+  {
+   "name": "Rajasthan Atomic Power Station",
+   "state": "Rajasthan",
+   "lat": 24.87222,
+   "lng": 75.61389,
+   "capacityMW": 1780,
+   "owner": "NPCIL",
+   "fuel": "Nuclear"
+  },
+  {
+   "name": "Narora Atomic Power Station",
+   "state": "Uttar Pradesh",
+   "lat": 28.15722,
+   "lng": 78.40944,
+   "capacityMW": 440,
+   "owner": "NPCIL",
+   "fuel": "Nuclear"
+  },
+  {
+   "name": "Gorakhpur Nuclear Power Plant",
+   "state": "Haryana",
+   "lat": 29.44972,
+   "lng": 75.68,
+   "capacityMW": null,
+   "owner": "NPCIL",
+   "fuel": "Nuclear"
+  },
+  {
+   "name": "Vindhyachal Super Thermal Power Station",
+   "state": "Madhya Pradesh",
+   "lat": 24.09806,
+   "lng": 82.67167,
+   "capacityMW": 4760,
+   "owner": "NTPC",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Mundra Thermal Power Station",
+   "state": "Gujarat",
+   "lat": 22.82278,
+   "lng": 69.55278,
+   "capacityMW": 4620,
+   "owner": "Adani Power",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Mundra Ultra Mega Power Project",
+   "state": "Gujarat",
+   "lat": 22.82278,
+   "lng": 69.55278,
+   "capacityMW": 4000,
+   "owner": "Tata Power",
+   "fuel": "Coal"
+  },
+  {
+   "name": "KSK Mahanadi Power Project",
+   "state": "Chhattisgarh",
+   "lat": 22.82278,
+   "lng": 69.55278,
+   "capacityMW": 3600,
+   "owner": "KSK Energy Ventures",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Jindal Tamnar Thermal Power Plant",
+   "state": "Chhattisgarh",
+   "lat": 22.10444,
+   "lng": 83.45111,
+   "capacityMW": 3400,
+   "owner": "JSPL",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Chandrapur Super Thermal Power Station",
+   "state": "Maharashtra",
+   "lat": 20.00667,
+   "lng": 79.28917,
+   "capacityMW": 3340,
+   "owner": "MSPGCL (MAHAGENCO)",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Tirora Thermal Power Station",
+   "state": "Maharashtra",
+   "lat": 21.41611,
+   "lng": 79.9675,
+   "capacityMW": 3300,
+   "owner": "Adani Power",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Sipat Thermal Power Plant",
+   "state": "Chhattisgarh",
+   "lat": 22.1325,
+   "lng": 82.29,
+   "capacityMW": 2980,
+   "owner": "NTPC",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Korba Super Thermal Power Plant",
+   "state": "Chhattisgarh",
+   "lat": 22.38639,
+   "lng": 82.68278,
+   "capacityMW": 2600,
+   "owner": "NTPC",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Wanakbori Thermal Power Station",
+   "state": "Gujarat",
+   "lat": 22.8775,
+   "lng": 73.35972,
+   "capacityMW": 2270,
+   "owner": "GSECL",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Bhusawal Thermal Power Station",
+   "state": "Maharashtra",
+   "lat": 21.04917,
+   "lng": 75.84222,
+   "capacityMW": 1000,
+   "owner": "MSPGCL (MAHAGENCO)",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Trombay Thermal Power Station",
+   "state": "Maharashtra",
+   "lat": 19.0025,
+   "lng": 72.89833,
+   "capacityMW": 750,
+   "owner": "Tata Power",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Amravati Thermal Power Plant",
+   "state": "Maharashtra",
+   "lat": 21.08028,
+   "lng": 77.90167,
+   "capacityMW": 1350,
+   "owner": "style=\"text-align:right;\" |1,350",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Khaparkheda Thermal Power Station",
+   "state": "Maharashtra",
+   "lat": 21.28194,
+   "lng": 79.115,
+   "capacityMW": 1340,
+   "owner": "MSPGCL (MAHAGENCO)",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Sanjay Gandhi Thermal Power Station",
+   "state": "Madhya Pradesh",
+   "lat": 23.305,
+   "lng": 81.06417,
+   "capacityMW": 1340,
+   "owner": "MPPGCL",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Satpura Thermal Power Station",
+   "state": "Madhya Pradesh",
+   "lat": 22.10917,
+   "lng": 78.17333,
+   "capacityMW": 1330,
+   "owner": "MPPGCL",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Essar Salaya Power Plant",
+   "state": "Gujarat",
+   "lat": 22.29853,
+   "lng": 69.71949,
+   "capacityMW": 1200,
+   "owner": "Essar Energy",
+   "fuel": "Coal"
+  },
+  {
+   "name": "DB Thermal Project Ltd.",
+   "state": "Chhattisgarh",
+   "lat": 22.43333,
+   "lng": 83.17972,
+   "capacityMW": 1200,
+   "owner": "DB POWER",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Parli Thermal Power Station",
+   "state": "Maharashtra",
+   "lat": 18.90583,
+   "lng": 76.54333,
+   "capacityMW": 500,
+   "owner": "MSPGCL (MAHAGENCO)",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Gandhinagar Thermal Power Station",
+   "state": "Gujarat",
+   "lat": 23.24972,
+   "lng": 72.67389,
+   "capacityMW": 630,
+   "owner": "GSECL",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Ukai Thermal Power Station",
+   "state": "Gujarat",
+   "lat": 21.21083,
+   "lng": 73.55722,
+   "capacityMW": 1110,
+   "owner": "GSECL",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Hasdeo Thermal Power Station",
+   "state": "Chhattisgarh",
+   "lat": 22.4125,
+   "lng": 82.68861,
+   "capacityMW": 840,
+   "owner": "CSPGCL",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Nashik Thermal Power Station",
+   "state": "Maharashtra",
+   "lat": 19.98056,
+   "lng": 73.89139,
+   "capacityMW": 630,
+   "owner": "MSPGCL (MAHAGENCO)",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Koradi Thermal Power Station",
+   "state": "Maharashtra",
+   "lat": 21.24778,
+   "lng": 79.09806,
+   "capacityMW": 2400,
+   "owner": "MSPGCL (MAHAGENCO)",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Lanco Amarkantak Power Plant",
+   "state": "Chhattisgarh",
+   "lat": 22.24556,
+   "lng": 82.72333,
+   "capacityMW": 600,
+   "owner": "Lanco Infratech",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Dr Shyama Prasad Mukharjee Thermal Power Station",
+   "state": "Chhattisgarh",
+   "lat": 22.37,
+   "lng": 82.72111,
+   "capacityMW": 500,
+   "owner": "CSPGCL",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Dahanu Thermal Power Station",
+   "state": "Maharashtra",
+   "lat": 19.95333,
+   "lng": 72.74833,
+   "capacityMW": 500,
+   "owner": "Adani Power",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Paras Thermal Power Station",
+   "state": "Maharashtra",
+   "lat": 20.71528,
+   "lng": 76.79361,
+   "capacityMW": 500,
+   "owner": "MSPGCL (MAHAGENCO)",
+   "fuel": "Coal"
+  },
+  {
+   "name": "NSPCL Bhilai Power Plant",
+   "state": "Chhattisgarh",
+   "lat": 21.18278,
+   "lng": 81.42444,
+   "capacityMW": 500,
+   "owner": "NSPCL",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Surat Thermal Power Station",
+   "state": "Gujarat",
+   "lat": 21.39611,
+   "lng": 73.10611,
+   "capacityMW": 500,
+   "owner": "Gujarat Industries Power Company Ltd.",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Amarkantak Thermal Power Station",
+   "state": "Madhya Pradesh",
+   "lat": 23.16444,
+   "lng": 81.63806,
+   "capacityMW": 210,
+   "owner": "MPPGCL",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Bhawnendra Singh Deo Power Plant",
+   "state": "Chhattisgarh",
+   "lat": 22.38361,
+   "lng": 82.71889,
+   "capacityMW": null,
+   "owner": "CSPGCL",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Sabarmati Thermal Power Station",
+   "state": "Gujarat",
+   "lat": 23.07056,
+   "lng": 72.59389,
+   "capacityMW": 362,
+   "owner": "Torrent Power",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Kutch Thermal Power Station",
+   "state": "Gujarat",
+   "lat": 23.66389,
+   "lng": 68.78361,
+   "capacityMW": 150,
+   "owner": "GSECL",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Akrimota Thermal Power Station",
+   "state": "Gujarat",
+   "lat": 23.7725,
+   "lng": 68.64556,
+   "capacityMW": 250,
+   "owner": "GMDC",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Sikka Thermal Power Station",
+   "state": "Gujarat",
+   "lat": 22.42222,
+   "lng": 69.82694,
+   "capacityMW": 500,
+   "owner": "GSECL",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Dhuvaran Thermal Power Station",
+   "state": "Gujarat",
+   "lat": 22.23306,
+   "lng": 72.75694,
+   "capacityMW": null,
+   "owner": "GSECL",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Rihand Thermal Power Station",
+   "state": "Uttar Pradesh",
+   "lat": 24.0275,
+   "lng": 82.79111,
+   "capacityMW": 3000,
+   "owner": "NTPC",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Singrauli Super Thermal Power Station",
+   "state": "Uttar Pradesh",
+   "lat": 24.10444,
+   "lng": 82.7075,
+   "capacityMW": 2000,
+   "owner": "NTPC",
+   "fuel": "Coal"
+  },
+  {
+   "name": "NTPC Dadri",
+   "state": "Uttar Pradesh",
+   "lat": 28.60111,
+   "lng": 77.60694,
+   "capacityMW": 1820,
+   "owner": "NTPC",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Anpara Thermal Power Station",
+   "state": "Uttar Pradesh",
+   "lat": 24.20306,
+   "lng": 82.78833,
+   "capacityMW": 2630,
+   "owner": "UPRVUNL",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Suratgarh Super Thermal Power Plant",
+   "state": "Rajasthan",
+   "lat": 29.18222,
+   "lng": 74.01917,
+   "capacityMW": 1500,
+   "owner": "style=\"text-align:right;\" |1,500",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Obra Thermal Power Station",
+   "state": "Uttar Pradesh",
+   "lat": 24.44472,
+   "lng": 82.97806,
+   "capacityMW": 1188,
+   "owner": "UPRVUNL",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Guru Gobind Singh Super Thermal Power Plant",
+   "state": "Punjab",
+   "lat": 31.04222,
+   "lng": 76.58389,
+   "capacityMW": 840,
+   "owner": "PSPCL",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Talwandi Sabo Power Project",
+   "state": "Punjab",
+   "lat": 29.89194,
+   "lng": 75.21472,
+   "capacityMW": 1980,
+   "owner": "Vedanta Limited",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Kota Super Thermal Power Plant",
+   "state": "Rajasthan",
+   "lat": 25.17139,
+   "lng": 75.815,
+   "capacityMW": 1240,
+   "owner": "RVUNL",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Rosa Thermal Power Plant",
+   "state": "Uttar Pradesh",
+   "lat": 27.81861,
+   "lng": 79.93611,
+   "capacityMW": 1200,
+   "owner": "Reliance Power Limited",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Rajiv Gandhi Thermal Power Station",
+   "state": "Haryana",
+   "lat": 29.35694,
+   "lng": 75.86722,
+   "capacityMW": 1200,
+   "owner": "style=\"text-align:right;\" |1,200",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Indira Gandhi Super Thermal Power Project",
+   "state": "Haryana",
+   "lat": 29.35694,
+   "lng": 75.86722,
+   "capacityMW": 1500,
+   "owner": "Aravali Power Company India Limited",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Raj West Lignite Power Plant",
+   "state": "Rajasthan",
+   "lat": 25.88889,
+   "lng": 71.32361,
+   "capacityMW": 1080,
+   "owner": "JSW Energy",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Feroj Gandhi Unchahar Thermal Power Plant",
+   "state": "Uttar Pradesh",
+   "lat": 25.91444,
+   "lng": 81.32583,
+   "capacityMW": 1050,
+   "owner": "NTPC",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Guru Hargobind TP",
+   "state": "Punjab",
+   "lat": 30.26778,
+   "lng": 75.16472,
+   "capacityMW": 500,
+   "owner": "PSPCL",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Badarpur Thermal Power Station",
+   "state": "Delhi",
+   "lat": 28.50611,
+   "lng": 77.30722,
+   "capacityMW": null,
+   "owner": "NTPC",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Parichha Thermal Power Station",
+   "state": "Uttar Pradesh",
+   "lat": 25.51417,
+   "lng": 78.76,
+   "capacityMW": 1140,
+   "owner": "UPRVUNL",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Lalitpur Thermal Power Station",
+   "state": "Uttar Pradesh",
+   "lat": 25.51472,
+   "lng": 78.75944,
+   "capacityMW": 1980,
+   "owner": "Bajaj Hindustan Ltd.",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Chhabra Thermal Power Plant",
+   "state": "Rajasthan",
+   "lat": 24.62056,
+   "lng": 77.03611,
+   "capacityMW": 500,
+   "owner": "RVUNL",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Guru Nanak Dev Thermal Plant",
+   "state": "Punjab",
+   "lat": 30.23389,
+   "lng": 74.92389,
+   "capacityMW": null,
+   "owner": "PSPCL",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Tanda Thermal Power Plant",
+   "state": "Uttar Pradesh",
+   "lat": 26.58944,
+   "lng": 82.60111,
+   "capacityMW": 440,
+   "owner": "NTPC",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Barsingsar Thermal Power Station",
+   "state": "Rajasthan",
+   "lat": 27.81917,
+   "lng": 73.20778,
+   "capacityMW": 250,
+   "owner": "style=\"text-align:right;\" |250",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Giral Lignite Power Plant",
+   "state": "Rajasthan",
+   "lat": 26.04556,
+   "lng": 71.25361,
+   "capacityMW": 250,
+   "owner": "RVUNL",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Harduaganj Thermal Power Station",
+   "state": "Uttar Pradesh",
+   "lat": 28.01667,
+   "lng": 78.13056,
+   "capacityMW": 160,
+   "owner": "UPRVUNL",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Panki Thermal Power Station",
+   "state": "Uttar Pradesh",
+   "lat": 26.47639,
+   "lng": 80.24194,
+   "capacityMW": null,
+   "owner": "UPRVUNL",
+   "fuel": "Coal"
+  },
+  {
+   "name": "VS Lignite Power Plant",
+   "state": "Rajasthan",
+   "lat": 27.855,
+   "lng": 72.85611,
+   "capacityMW": 135,
+   "owner": "KSK Energy Ventures",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Faridabad Thermal Power Station",
+   "state": "Haryana",
+   "lat": 28.37444,
+   "lng": 77.30583,
+   "capacityMW": 55,
+   "owner": "HPGCL",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Barh Super Thermal Power Station",
+   "state": "Bihar",
+   "lat": 25.24278,
+   "lng": 87.26333,
+   "capacityMW": 3300,
+   "owner": "NTPC",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Talcher Super Thermal Power Station",
+   "state": "Odisha",
+   "lat": 21.09694,
+   "lng": 85.075,
+   "capacityMW": 3000,
+   "owner": "NTPC",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Sterlite Jharsuguda Power Station",
+   "state": "Odisha",
+   "lat": 21.81361,
+   "lng": 84.03972,
+   "capacityMW": 2400,
+   "owner": "style=\"text-align:right;\" | 2,400",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Mejia Thermal Power Station",
+   "state": "West Bengal",
+   "lat": 23.46306,
+   "lng": 87.13083,
+   "capacityMW": 2340,
+   "owner": "style=\"text-align:right;\" |2,340",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Kahalgaon Super Thermal Power Station",
+   "state": "Bihar",
+   "lat": 25.24278,
+   "lng": 87.26333,
+   "capacityMW": 2340,
+   "owner": "NTPC",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Farakka Super Thermal Power Station",
+   "state": "West Bengal",
+   "lat": 24.77306,
+   "lng": 87.89528,
+   "capacityMW": 2100,
+   "owner": "NTPC",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Nabinagar Super Thermal Power Project",
+   "state": "Bihar",
+   "lat": 25.24278,
+   "lng": 87.26333,
+   "capacityMW": 1980,
+   "owner": "NTPC",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Vedanta Jharsuguda Captive Power Plant",
+   "state": "Odisha",
+   "lat": 21.78556,
+   "lng": 84.055,
+   "capacityMW": 1215,
+   "owner": "style=\"text-align:right;\" |1,215",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Kolaghat Thermal Power Station",
+   "state": "West Bengal",
+   "lat": 22.41667,
+   "lng": 87.87083,
+   "capacityMW": 1260,
+   "owner": "WBPDCL",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Angul Thermal Power Station",
+   "state": "Odisha",
+   "lat": 21.12472,
+   "lng": 84.98083,
+   "capacityMW": 1200,
+   "owner": "Jindal India Thermal Power",
+   "fuel": "Coal"
+  },
+  {
+   "name": "National Aluminium Company Captive Power Plant",
+   "state": "Odisha",
+   "lat": 20.85306,
+   "lng": 85.19056,
+   "capacityMW": 1200,
+   "owner": "NALCO",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Kamalanga Thermal Power Plant",
+   "state": "Odisha",
+   "lat": 20.87333,
+   "lng": 85.27444,
+   "capacityMW": 1050,
+   "owner": "style=\"text-align:right;\" |1,050",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Bakreshwar Thermal Power Station",
+   "state": "West Bengal",
+   "lat": 23.82861,
+   "lng": 87.45167,
+   "capacityMW": 1050,
+   "owner": "WBPDCL",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Durgapur Steel Thermal Power Station",
+   "state": "West Bengal",
+   "lat": 23.46306,
+   "lng": 87.13083,
+   "capacityMW": 1000,
+   "owner": "style=\"text-align:right;\" |1,000",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Koderma Thermal Power Station",
+   "state": "Jharkhand",
+   "lat": 23.46306,
+   "lng": 87.13083,
+   "capacityMW": 1000,
+   "owner": "style=\"text-align:right;\" |1,000",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Bhartiya Rail Bijlee Company Limited",
+   "state": "Bihar",
+   "lat": 25.24278,
+   "lng": 87.26333,
+   "capacityMW": 1000,
+   "owner": "NTPC",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Ib Thermal Power Station",
+   "state": "Odisha",
+   "lat": 21.68972,
+   "lng": 83.86,
+   "capacityMW": 960,
+   "owner": "OPGCL",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Barauni Thermal Power Station",
+   "state": "Bihar",
+   "lat": 25.39972,
+   "lng": 86.02222,
+   "capacityMW": 810,
+   "owner": "NTPC",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Patratu Thermal Power Station",
+   "state": "Jharkhand",
+   "lat": 23.64083,
+   "lng": 85.29333,
+   "capacityMW": 840,
+   "owner": "JSEB",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Budge Budge Thermal Power Plant",
+   "state": "West Bengal",
+   "lat": 22.46917,
+   "lng": 88.13972,
+   "capacityMW": 750,
+   "owner": "CESCL",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Santaldih Thermal Power Station",
+   "state": "West Bengal",
+   "lat": 23.60222,
+   "lng": 86.46833,
+   "capacityMW": 500,
+   "owner": "WBPDCL",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Durgapur Thermal Power Station",
+   "state": "West Bengal",
+   "lat": 23.51917,
+   "lng": 87.30139,
+   "capacityMW": 410,
+   "owner": "style=\"text-align:right;\" |410",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Bokaro Thermal Power Station",
+   "state": "Jharkhand",
+   "lat": 23.78444,
+   "lng": 85.88056,
+   "capacityMW": 710,
+   "owner": "style=\"text-align:right;\" |710",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Kanti Thermal Power Station",
+   "state": "Bihar",
+   "lat": 26.19472,
+   "lng": 85.30167,
+   "capacityMW": 610,
+   "owner": "NTPC",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Sagardighi Thermal Power Station",
+   "state": "West Bengal",
+   "lat": 24.37889,
+   "lng": 88.09556,
+   "capacityMW": 1600,
+   "owner": "WBPDCL",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Talcher Thermal Power Station",
+   "state": "Odisha",
+   "lat": 20.91139,
+   "lng": 85.2075,
+   "capacityMW": 460,
+   "owner": "NTPC",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Bandel Thermal Power Station",
+   "state": "West Bengal",
+   "lat": 22.99556,
+   "lng": 88.40361,
+   "capacityMW": 450,
+   "owner": "WBPDCL",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Jojobera Thermal Power Plant",
+   "state": "Jharkhand",
+   "lat": 22.75583,
+   "lng": 86.24917,
+   "capacityMW": 427.5,
+   "owner": "Tata Power",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Tenughat Thermal Power Station",
+   "state": "Jharkhand",
+   "lat": 23.72722,
+   "lng": 85.76472,
+   "capacityMW": 420,
+   "owner": "style=\"text-align:right;\" |420",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Hirakud Captive Power Plant",
+   "state": "Odisha",
+   "lat": 21.78556,
+   "lng": 84.055,
+   "capacityMW": 367.5,
+   "owner": "style=\"text-align:right;\" |367.5",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Titagarh Thermal Power Station",
+   "state": "West Bengal",
+   "lat": 22.73222,
+   "lng": 88.36972,
+   "capacityMW": 240,
+   "owner": "CESCL",
+   "fuel": "Coal"
+  },
+  {
+   "name": "CESC Southern Generating Station",
+   "state": "West Bengal",
+   "lat": 22.54944,
+   "lng": 88.29139,
+   "capacityMW": 135,
+   "owner": "CESCL",
+   "fuel": "Coal"
+  },
+  {
+   "name": "NTPC Ramagundam",
+   "state": "Telangana",
+   "lat": 18.75861,
+   "lng": 79.45472,
+   "capacityMW": 2600,
+   "owner": "NTPC",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Simhadri Super Thermal Power Plant",
+   "state": "Andhra Pradesh",
+   "lat": 17.59389,
+   "lng": 83.08972,
+   "capacityMW": 2000,
+   "owner": "NTPC",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Neyveli Thermal Power Station II",
+   "state": "Tamil Nadu",
+   "lat": 11.55778,
+   "lng": 79.44194,
+   "capacityMW": 1970,
+   "owner": "style=\"text-align:right;\" |1,970",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Dr Narla Tatarao TPS",
+   "state": "Andhra Pradesh",
+   "lat": 16.59944,
+   "lng": 80.53667,
+   "capacityMW": 2560,
+   "owner": "APGENCO",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Raichur Thermal Power Station",
+   "state": "Karnataka",
+   "lat": 16.35556,
+   "lng": 77.34333,
+   "capacityMW": 1720,
+   "owner": "KPCL",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Kothagudem Thermal Power Station",
+   "state": "Telangana",
+   "lat": 17.62167,
+   "lng": 80.6875,
+   "capacityMW": 1800,
+   "owner": "TSGENCO",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Sri Damodaram Sanjeevaiah Thermal Power Station",
+   "state": "Andhra Pradesh",
+   "lat": 14.3275,
+   "lng": 80.12083,
+   "capacityMW": 2400,
+   "owner": "style=\"text-align:right;\" |2,400",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Sembcorp Gayatri Power Complex",
+   "state": "Andhra Pradesh",
+   "lat": 14.32917,
+   "lng": 80.14083,
+   "capacityMW": 2640,
+   "owner": "style=\"text-align:right;\" |2,640",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Udupi Power Plant",
+   "state": "Karnataka",
+   "lat": 13.14694,
+   "lng": 74.80056,
+   "capacityMW": 1200,
+   "owner": "Adani Power",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Tuticorin Thermal Power Station",
+   "state": "Tamil Nadu",
+   "lat": 8.76222,
+   "lng": 78.17556,
+   "capacityMW": 1050,
+   "owner": "style=\"text-align:right;\" |1,050",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Rayalaseema Thermal Power Station",
+   "state": "Andhra Pradesh",
+   "lat": 14.70389,
+   "lng": 78.45806,
+   "capacityMW": 1650,
+   "owner": "APGENCO",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Neyveli Thermal Power Station I",
+   "state": "Tamil Nadu",
+   "lat": 11.59278,
+   "lng": 79.47139,
+   "capacityMW": 420,
+   "owner": "style=\"text-align:right;\" |420",
+   "fuel": "Coal"
+  },
+  {
+   "name": "NTPL Thermal Power Station",
+   "state": "Tamil Nadu",
+   "lat": 8.75889,
+   "lng": 78.18189,
+   "capacityMW": 1000,
+   "owner": "style=\"text-align:right;\" |1,000",
+   "fuel": "Coal"
+  },
+  {
+   "name": "JSW Vijayanagar Power Station",
+   "state": "Karnataka",
+   "lat": 15.18167,
+   "lng": 76.67667,
+   "capacityMW": 860,
+   "owner": "JSW Energy",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Mettur Thermal Power Station",
+   "state": "Tamil Nadu",
+   "lat": 11.77194,
+   "lng": 77.81361,
+   "capacityMW": 1440,
+   "owner": "style=\"text-align:right;\" |1,440",
+   "fuel": "Coal"
+  },
+  {
+   "name": "North Chennai Thermal Power Station",
+   "state": "Tamil Nadu",
+   "lat": 13.25333,
+   "lng": 80.32806,
+   "capacityMW": 1830,
+   "owner": "style=\"text-align:right;\" |1,830",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Mutiara Thermal Power Plant",
+   "state": "Tamil Nadu",
+   "lat": 8.91444,
+   "lng": 78.1445,
+   "capacityMW": 1200,
+   "owner": "Coastal Energen Private Limited (CEPL)",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Simhapuri Thermal Power Station",
+   "state": "Andhra Pradesh",
+   "lat": 14.20972,
+   "lng": 80.08972,
+   "capacityMW": 600,
+   "owner": "Simhapuri Energy Limited",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Hinduja Thermal Power Station",
+   "state": "Andhra Pradesh",
+   "lat": 17.5625,
+   "lng": 83.1375,
+   "capacityMW": 1040,
+   "owner": "style=\"text-align:right;\" |1,040",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Kakatiya Thermal Power Station",
+   "state": "Telangana",
+   "lat": 18.38389,
+   "lng": 79.82833,
+   "capacityMW": 500,
+   "owner": "TSGENCO",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Bellary Thermal Power station",
+   "state": "Karnataka",
+   "lat": 15.19361,
+   "lng": 76.72111,
+   "capacityMW": 1700,
+   "owner": "KPCL",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Yermarus Thermal Power Station",
+   "state": "Karnataka",
+   "lat": 16.29417,
+   "lng": 77.35528,
+   "capacityMW": 1600,
+   "owner": "KPCL",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Ennore Thermal Power Station",
+   "state": "Tamil Nadu",
+   "lat": 13.20194,
+   "lng": 80.31111,
+   "capacityMW": null,
+   "owner": "style=\"text-align:right;\" |",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Meenakshi Power Plant",
+   "state": "Andhra Pradesh",
+   "lat": 14.21583,
+   "lng": 80.08861,
+   "capacityMW": 300,
+   "owner": "style=\"text-align:right;\" |300",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Neyveli Zero Lignite Power Station",
+   "state": "Tamil Nadu",
+   "lat": 11.5425,
+   "lng": 79.41583,
+   "capacityMW": 250,
+   "owner": "style=\"text-align:right;\" |250",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Ramagundam B Thermal Power Station",
+   "state": "Telangana",
+   "lat": 18.72528,
+   "lng": 79.51306,
+   "capacityMW": 62.5,
+   "owner": "TSGENCO",
+   "fuel": "Coal"
+  },
+  {
+   "name": "Dabhol Power Station",
+   "state": "Maharashtra",
+   "lat": 17.55972,
+   "lng": 73.16639,
+   "capacityMW": 2220,
+   "owner": "RGPPL",
+   "fuel": "Gas"
+  },
+  {
+   "name": "Uran Gas Turbine Power Station",
+   "state": "Maharashtra",
+   "lat": 18.88194,
+   "lng": 72.97028,
+   "capacityMW": 672,
+   "owner": "MSPGCL (MAHAGENCO)",
+   "fuel": "Gas"
+  },
+  {
+   "name": "GPEC Combined Cycle Power Plant",
+   "state": "Gujarat",
+   "lat": 21.78028,
+   "lng": 72.97944,
+   "capacityMW": 655,
+   "owner": "style=\"text-align:right;\" |655",
+   "fuel": "Gas"
+  },
+  {
+   "name": "Jhanor-Gandhar TPS",
+   "state": "Gujarat",
+   "lat": 21.78,
+   "lng": 72.97917,
+   "capacityMW": 648,
+   "owner": "NTPC",
+   "fuel": "Gas"
+  },
+  {
+   "name": "Kawas TPS",
+   "state": "Gujarat",
+   "lat": 21.17583,
+   "lng": 72.68722,
+   "capacityMW": 645,
+   "owner": "NTPC",
+   "fuel": "Gas"
+  },
+  {
+   "name": "Essar Combined Cycle Power Plant",
+   "state": "Gujarat",
+   "lat": 21.11083,
+   "lng": 72.65528,
+   "capacityMW": 515,
+   "owner": "Essar Power Limited",
+   "fuel": "Gas"
+  },
+  {
+   "name": "Utran Gas Based Power Station",
+   "state": "Gujarat",
+   "lat": 21.22889,
+   "lng": 72.87056,
+   "capacityMW": 383,
+   "owner": "GSECL",
+   "fuel": "Gas"
+  },
+  {
+   "name": "Dhuvaran Gas Based CCPP",
+   "state": "Gujarat",
+   "lat": 22.24,
+   "lng": 72.7525,
+   "capacityMW": 594.72,
+   "owner": "GSECL",
+   "fuel": "Gas"
+  },
+  {
+   "name": "Trombay Gas Power Station",
+   "state": "Maharashtra",
+   "lat": 19.00333,
+   "lng": 72.90389,
+   "capacityMW": 180,
+   "owner": "Tata",
+   "fuel": "Gas"
+  },
+  {
+   "name": "GSEG Combined Cycle Power Plant",
+   "state": "Gujarat",
+   "lat": 21.16583,
+   "lng": 72.70444,
+   "capacityMW": 156,
+   "owner": "GSEG",
+   "fuel": "Gas"
+  },
+  {
+   "name": "Goa Gas Power Station",
+   "state": "Goa",
+   "lat": 15.21056,
+   "lng": 73.87694,
+   "capacityMW": 48,
+   "owner": "RSPCL",
+   "fuel": "Gas"
+  },
+  {
+   "name": "National Capital TPP",
+   "state": "Uttar Pradesh",
+   "lat": 28.59389,
+   "lng": 77.61056,
+   "capacityMW": 817,
+   "owner": "NTPC",
+   "fuel": "Gas"
+  },
+  {
+   "name": "Auraiya Thermal Power Station",
+   "state": "Uttar Pradesh",
+   "lat": 26.63056,
+   "lng": 79.66139,
+   "capacityMW": 652,
+   "owner": "NTPC",
+   "fuel": "Gas"
+  },
+  {
+   "name": "Faridabad Thermal Power Plant",
+   "state": "Haryana",
+   "lat": 28.34694,
+   "lng": 77.36167,
+   "capacityMW": 430,
+   "owner": "NTPC",
+   "fuel": "Gas"
+  },
+  {
+   "name": "Anta Thermal Power Station",
+   "state": "Rajasthan",
+   "lat": 25.17972,
+   "lng": 76.31889,
+   "capacityMW": 413,
+   "owner": "NTPC",
+   "fuel": "Gas"
+  },
+  {
+   "name": "Dholpur Combined Cycle Power Station",
+   "state": "Rajasthan",
+   "lat": 26.7025,
+   "lng": 77.84889,
+   "capacityMW": 330,
+   "owner": "RVUNL",
+   "fuel": "Gas"
+  },
+  {
+   "name": "Spectrum Combined Cycle Power Plant",
+   "state": "Andhra Pradesh",
+   "lat": 17.05861,
+   "lng": 82.30944,
+   "capacityMW": 209,
+   "owner": "style=\"text-align:right;\" |209",
+   "fuel": "Gas"
+  },
+  {
+   "name": "GMR (barge mounted) Power Plant",
+   "state": "Andhra Pradesh",
+   "lat": 17.05889,
+   "lng": 82.30917,
+   "capacityMW": 237,
+   "owner": "style=\"text-align:right;\" |237",
+   "fuel": "Gas"
+  },
+  {
+   "name": "Kochi Combined Cycle Power Station",
+   "state": "Kerala",
+   "lat": 10.07417,
+   "lng": 76.31889,
+   "capacityMW": 157,
+   "owner": "style=\"text-align:right;\" |157",
+   "fuel": "Gas"
+  },
+  {
+   "name": "Rajiv Gandhi CCPP",
+   "state": "Kerala",
+   "lat": 9.23861,
+   "lng": 76.43028,
+   "capacityMW": 359.58,
+   "owner": "NTPC",
+   "fuel": "Gas"
+  },
+  {
+   "name": "Lakwa Thermal Power Station",
+   "state": "Assam",
+   "lat": 26.98556,
+   "lng": 94.92833,
+   "capacityMW": 97.2,
+   "owner": "APGCL",
+   "fuel": "Gas"
+  },
+  {
+   "name": "Namrup Thermal Power Station",
+   "state": "Assam",
+   "lat": 27.18639,
+   "lng": 95.37611,
+   "capacityMW": 91,
+   "owner": "APGCL",
+   "fuel": "Gas"
+  },
+  {
+   "name": "Kozhikode Diesel Power Station",
+   "state": "Kerala",
+   "lat": 11.20528,
+   "lng": 75.80694,
+   "capacityMW": 96,
+   "owner": "KSEB",
+   "fuel": "Diesel"
+  },
+  {
+   "name": "Tehri Dam",
+   "state": "Uttarakhand",
+   "lat": 30.37778,
+   "lng": 78.48056,
+   "capacityMW": 1000,
+   "owner": "THDC",
+   "fuel": "Hydro"
+  },
+  {
+   "name": "Koteshwar Dam",
+   "state": "Uttarakhand",
+   "lat": 30.37778,
+   "lng": 78.48056,
+   "capacityMW": 400,
+   "owner": "THDC",
+   "fuel": "Hydro"
+  },
+  {
+   "name": "Karcham Wangtoo Hydroelectric Plant",
+   "state": "Himachal Pradesh",
+   "lat": 31.5432,
+   "lng": 78.01522,
+   "capacityMW": 1000,
+   "owner": "style=\"text-align:right;\" |1,000",
+   "fuel": "Hydro"
+  },
+  {
+   "name": "Nathpa Jhakri",
+   "state": "Himachal Pradesh",
+   "lat": 31.56389,
+   "lng": 77.98028,
+   "capacityMW": 1500,
+   "owner": "SJVNL",
+   "fuel": "Hydro"
+  },
+  {
+   "name": "Dehar Power House",
+   "state": "Himachal Pradesh",
+   "lat": 31.41306,
+   "lng": 76.86833,
+   "capacityMW": 990,
+   "owner": "style=\"text-align:right;\" |990",
+   "fuel": "Hydro"
+  },
+  {
+   "name": "Pong",
+   "state": "Himachal Pradesh",
+   "lat": 31.97139,
+   "lng": 75.94667,
+   "capacityMW": 396,
+   "owner": "style=\"text-align:right;\" |396",
+   "fuel": "Hydro"
+  },
+  {
+   "name": "Bhakra Dam",
+   "state": "Himachal Pradesh",
+   "lat": 31.41083,
+   "lng": 76.43333,
+   "capacityMW": 1379,
+   "owner": "style=\"text-align:right;\" |1,379",
+   "fuel": "Hydro"
+  },
+  {
+   "name": "Chamera Dam",
+   "state": "Himachal Pradesh",
+   "lat": 32.59722,
+   "lng": 75.98583,
+   "capacityMW": 1071,
+   "owner": "NHPC",
+   "fuel": "Hydro"
+  },
+  {
+   "name": "Salal Hydroelectric Power Station",
+   "state": "Jammu and Kashmir",
+   "lat": 33.14056,
+   "lng": 74.8075,
+   "capacityMW": 690,
+   "owner": "NHPC",
+   "fuel": "Hydro"
+  },
+  {
+   "name": "Uri Hydroelectric Project",
+   "state": "Jammu and Kashmir",
+   "lat": 34.14444,
+   "lng": 74.18556,
+   "capacityMW": 480,
+   "owner": "NHPC",
+   "fuel": "Hydro"
+  },
+  {
+   "name": "Kishanganga Hydroelectric Project",
+   "state": "Jammu and Kashmir",
+   "lat": 34.6475,
+   "lng": 74.76472,
+   "capacityMW": null,
+   "owner": "NHPC",
+   "fuel": "Hydro"
+  },
+  {
+   "name": "Srisailam Dam",
+   "state": "Telangana",
+   "lat": 16.08694,
+   "lng": 78.89722,
+   "capacityMW": 1670,
+   "owner": "TSGENCO",
+   "fuel": "Hydro"
+  },
+  {
+   "name": "Sharavathi",
+   "state": "Karnataka",
+   "lat": 14.235,
+   "lng": 74.76722,
+   "capacityMW": 1608.2,
+   "owner": "KPCL",
+   "fuel": "Hydro"
+  },
+  {
+   "name": "Kalinadi",
+   "state": "Karnataka",
+   "lat": 14.84222,
+   "lng": 74.12306,
+   "capacityMW": 1240,
+   "owner": "KPCL",
+   "fuel": "Hydro"
+  },
+  {
+   "name": "Varahi",
+   "state": "Karnataka",
+   "lat": 13.7025,
+   "lng": 74.99889,
+   "capacityMW": 506.5,
+   "owner": "KPCL",
+   "fuel": "Hydro"
+  },
+  {
+   "name": "Idukki",
+   "state": "Kerala",
+   "lat": 9.85028,
+   "lng": 76.96694,
+   "capacityMW": 780,
+   "owner": "KSEB",
+   "fuel": "Hydro"
+  },
+  {
+   "name": "Mettur Dam",
+   "state": "Tamil Nadu",
+   "lat": 11.8,
+   "lng": 77.8,
+   "capacityMW": 240,
+   "owner": "style=\"text-align:right;\" |240",
+   "fuel": "Hydro"
+  },
+  {
+   "name": "Linganamakki Dam",
+   "state": "Karnataka",
+   "lat": 17.12167,
+   "lng": 74.89194,
+   "capacityMW": 55,
+   "owner": "style=\"text-align:right;\" |55",
+   "fuel": "Hydro"
+  },
+  {
+   "name": "Kadamparai pumped storage",
+   "state": "Tamil Nadu",
+   "lat": 10.40417,
+   "lng": 77.04361,
+   "capacityMW": 400,
+   "owner": "style=\"text-align:right;\" |400",
+   "fuel": "Hydro"
+  },
+  {
+   "name": "Upper Sileru",
+   "state": "Andhra Pradesh",
+   "lat": 18.03639,
+   "lng": 82.01917,
+   "capacityMW": 240,
+   "owner": "APGenco",
+   "fuel": "Hydro"
+  },
+  {
+   "name": "Lower Sileru",
+   "state": "Andhra Pradesh",
+   "lat": 17.86972,
+   "lng": 81.6575,
+   "capacityMW": 460,
+   "owner": "style=\"text-align:right;\" |460",
+   "fuel": "Hydro"
+  },
+  {
+   "name": "Donkarayi",
+   "state": "Andhra Pradesh",
+   "lat": 17.9325,
+   "lng": 81.79694,
+   "capacityMW": 25,
+   "owner": "style=\"text-align:right;\" |25",
+   "fuel": "Hydro"
+  },
+  {
+   "name": "Koyna",
+   "state": "Maharashtra",
+   "lat": 17.40167,
+   "lng": 73.75222,
+   "capacityMW": 1960,
+   "owner": "MSPGCL (MAHAGENCO)",
+   "fuel": "Hydro"
+  },
+  {
+   "name": "Sardar Sarovar Dam",
+   "state": "Gujarat",
+   "lat": 21.83028,
+   "lng": 73.74722,
+   "capacityMW": 1450,
+   "owner": "Sardar Sarovar Narmada Nigam",
+   "fuel": "Hydro"
+  },
+  {
+   "name": "Indira Sagar",
+   "state": "Madhya Pradesh",
+   "lat": 22.28389,
+   "lng": 76.47139,
+   "capacityMW": 1000,
+   "owner": "NHPC",
+   "fuel": "Hydro"
+  },
+  {
+   "name": "Bansagar Dam",
+   "state": "Madhya Pradesh",
+   "lat": 24.19167,
+   "lng": 81.2875,
+   "capacityMW": 425,
+   "owner": "style=\"text-align:right;\" |425",
+   "fuel": "Hydro"
+  },
+  {
+   "name": "Ghatghar Pumped Storage",
+   "state": "Maharashtra",
+   "lat": 19.5425,
+   "lng": 73.66472,
+   "capacityMW": 250,
+   "owner": "MSPGCL (MAHAGENCO)",
+   "fuel": "Hydro"
+  },
+  {
+   "name": "Mulshi Dam",
+   "state": "Maharashtra",
+   "lat": 18.52694,
+   "lng": 73.51083,
+   "capacityMW": 300,
+   "owner": "Tata Power",
+   "fuel": "Hydro"
+  },
+  {
+   "name": "Bargi Dam",
+   "state": "Madhya Pradesh",
+   "lat": 22.94167,
+   "lng": 79.925,
+   "capacityMW": 105,
+   "owner": "style=\"text-align:right;\" |105",
+   "fuel": "Hydro"
+  },
+  {
+   "name": "Madikheda Dam",
+   "state": "Madhya Pradesh",
+   "lat": 25.55556,
+   "lng": 77.85278,
+   "capacityMW": 60,
+   "owner": "style=\"text-align:right;\" |60",
+   "fuel": "Hydro"
+  },
+  {
+   "name": "Jayakwadi Dam",
+   "state": "Maharashtra",
+   "lat": 19.48575,
+   "lng": 75.37,
+   "capacityMW": 12,
+   "owner": "style=\"text-align:right;\" |12",
+   "fuel": "Hydro"
+  },
+  {
+   "name": "Ujjani Dam",
+   "state": "Maharashtra",
+   "lat": 18.07417,
+   "lng": 75.12028,
+   "capacityMW": 12,
+   "owner": "MSPGCL (MAHAGENCO)",
+   "fuel": "Hydro"
+  },
+  {
+   "name": "Upper Indravati Power Station",
+   "state": "Odisha",
+   "lat": 19.47222,
+   "lng": 82.99722,
+   "capacityMW": 600,
+   "owner": "Odisha Hydro Power Corporation",
+   "fuel": "Hydro"
+  },
+  {
+   "name": "Balimela Power Station",
+   "state": "Andhra Pradesh",
+   "lat": 18.14694,
+   "lng": 82.11528,
+   "capacityMW": 510,
+   "owner": "Odisha Hydro Power Corporation",
+   "fuel": "Hydro"
+  },
+  {
+   "name": "Hirakud Dam",
+   "state": "Odisha",
+   "lat": 21.54944,
+   "lng": 83.87,
+   "capacityMW": 347.5,
+   "owner": "Odisha Hydro Power Corporation",
+   "fuel": "Hydro"
+  },
+  {
+   "name": "Upper Kolab Power Station",
+   "state": "Odisha",
+   "lat": 18.78861,
+   "lng": 82.6,
+   "capacityMW": 320,
+   "owner": "Odisha Hydro Power Corporation",
+   "fuel": "Hydro"
+  },
+  {
+   "name": "Sindol Complex Power Station",
+   "state": "Odisha",
+   "lat": 21.54944,
+   "lng": 83.82528,
+   "capacityMW": 320,
+   "owner": "Odisha Hydro Power Corporation",
+   "fuel": "Hydro"
+  },
+  {
+   "name": "Potteru Hydro Electric Project",
+   "state": "Odisha",
+   "lat": 17.95861,
+   "lng": 81.68556,
+   "capacityMW": 6,
+   "owner": "Odisha Hydro Power Corporation",
+   "fuel": "Hydro"
+  },
+  {
+   "name": "Jalaput Dam",
+   "state": "Andhra Pradesh",
+   "lat": 18.45472,
+   "lng": 82.54639,
+   "capacityMW": 120,
+   "owner": "Odisha Hydro Power Corporation",
+   "fuel": "Hydro"
+  },
+  {
+   "name": "Rengali Dam",
+   "state": "Odisha",
+   "lat": 21.27667,
+   "lng": 82.54833,
+   "capacityMW": 250,
+   "owner": "Odisha Hydro Power Corporation",
+   "fuel": "Hydro"
+  },
+  {
+   "name": "Teesta-V",
+   "state": "Sikkim",
+   "lat": 25.51389,
+   "lng": 89.66556,
+   "capacityMW": 510,
+   "owner": "NHPC",
+   "fuel": "Hydro"
+  },
+  {
+   "name": "Ranganadi",
+   "state": "Arunachal Pradesh",
+   "lat": 27.2575,
+   "lng": 93.79222,
+   "capacityMW": 405,
+   "owner": "style=\"text-align:right;\" |405",
+   "fuel": "Hydro"
+  },
+  {
+   "name": "Lower Subansiri Hydroelectric Power Project",
+   "state": "Arunachal Pradesh",
+   "lat": 27.55361,
+   "lng": 94.25861,
+   "capacityMW": null,
+   "owner": "NHPC",
+   "fuel": "Hydro"
+  },
+  {
+   "name": "Dhursar Solar Plant",
+   "state": "Rajasthan",
+   "lat": 26.78583,
+   "lng": 72.00833,
+   "capacityMW": 125,
+   "owner": "style=\"text-align:center;\" | 125",
+   "fuel": "Solar thermal"
+  }
+ ]
+}
