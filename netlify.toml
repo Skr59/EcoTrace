@@ -4,6 +4,10 @@
 
 [build.environment]
   NODE_VERSION = "20"
+  # The SMTP host/port are public values (e.g. smtp.gmail.com / 587) that also
+  # appear as documented defaults in the code, so they are not secrets.
+  # Credentials (EMAIL_SMTP_USER / EMAIL_SMTP_PASS) remain scanned.
+  SECRETS_SCAN_OMIT_KEYS = "EMAIL_SMTP_HOST,EMAIL_SMTP_PORT"
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
